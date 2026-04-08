@@ -19,6 +19,8 @@ spec:
       labels:
         app: {{ template "helm-guestbook.name" . }}
         release: {{ .Release.Name }}
+      annotations:
+        generation: "1"
     spec:
       containers:
         - name: {{ .Chart.Name }}
