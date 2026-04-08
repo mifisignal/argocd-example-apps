@@ -20,7 +20,7 @@ spec:
         app: {{ template "helm-guestbook.name" . }}
         release: {{ .Release.Name }}
       annotations:
-        generation: "1"
+        generation: "2"
     spec:
       containers:
         - name: {{ .Chart.Name }}
