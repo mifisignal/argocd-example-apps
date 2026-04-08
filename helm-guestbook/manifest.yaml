@@ -28,7 +28,7 @@ metadata:
     release: prod-helm-guestbook
   name: prod-helm-guestbook
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
@@ -36,6 +36,8 @@ spec:
       release: prod-helm-guestbook
   template:
     metadata:
+      annotations:
+        generation: "1"
       labels:
         app: helm-guestbook
         release: prod-helm-guestbook
