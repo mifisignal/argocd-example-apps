@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/mifisignal/argocd-example-apps",
-  "drySha": "1efd3769dda38ecf95121cd3762cd7f6fdd5d4f0",
+  "drySha": "20b27f28d05afb520f5f0ff70ba5d038127a3e81",
   "author": "Michael S. Fischer <michael@dynamine.net>",
-  "date": "2026-04-08T01:21:09Z",
-  "subject": "Bump generation to 2"
+  "date": "2026-04-08T02:53:05Z",
+  "subject": "Bump generation to 3"
 }
