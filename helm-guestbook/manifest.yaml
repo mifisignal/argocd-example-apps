@@ -36,6 +36,8 @@ spec:
       release: development-helm-guestbook
   template:
     metadata:
+      annotations:
+        generation: "1"
       labels:
         app: helm-guestbook
         release: development-helm-guestbook
