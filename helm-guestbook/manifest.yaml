@@ -37,7 +37,7 @@ spec:
   template:
     metadata:
       annotations:
-        generation: "3"
+        generation: "5"
       labels:
         app: helm-guestbook
         release: staging-helm-guestbook
