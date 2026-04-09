@@ -1,6 +1,6 @@
 {
   "repoURL": "https://github.com/mifisignal/argocd-example-apps",
-  "drySha": "5f447ee2995c2287a1c3d67fe338e43dbfc1972e",
+  "drySha": "4ff4592e220d679d061495042951548acefb29b6",
   "commands": [
     "helm template . --name-template development-helm-guestbook --namespace development --include-crds"
   ]
