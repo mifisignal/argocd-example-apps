@@ -5,6 +5,6 @@ To hydrate the manifests in this repository, run the following commands:
 ```shell
 git clone https://github.com/mifisignal/argocd-example-apps
 # cd into the cloned directory
-git checkout 5f447ee2995c2287a1c3d67fe338e43dbfc1972e
+git checkout 4ff4592e220d679d061495042951548acefb29b6
 helm template . --name-template prod-helm-guestbook --namespace prod --include-crds
 ```
